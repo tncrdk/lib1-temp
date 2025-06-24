@@ -1,6 +1,0 @@
-/home/thorb/Code/Sandkasse/lib1/build/../install/lib/liblib_a.so
-/home/thorb/Code/Sandkasse/lib1/build/../install/include/lib_a.h
-/home/thorb/Code/Sandkasse/lib1/build/../install/include/lib_a2.h
-/home/thorb/Code/Sandkasse/lib1/build/../install/lib/cmake/lib_a/lib_aConfig.cmake
-/home/thorb/Code/Sandkasse/lib1/build/../install/lib/cmake/lib_a/lib_aConfig-noconfig.cmake
-/home/thorb/Code/Sandkasse/lib1/build/../install/lib/cmake/lib_a/lib_aConfig.cmake
