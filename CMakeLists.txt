@@ -1,6 +1,7 @@
 # lib_a/CMakeLists.txt
 cmake_minimum_required(VERSION 3.10)
 project(lib_a VERSION 1.0.0 LANGUAGES CXX)
+include(CMakePrintHelpers)
 
 # Create the shared library
 add_library(lib_a SHARED
@@ -13,6 +14,7 @@ target_include_directories(lib_a PUBLIC
     $<INSTALL_INTERFACE:include>
     $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}>
 )
+cmake_print_variables(CMAKE_CURRENT_SOURCE_DIR)
 
 # Install rules for the library
 install(TARGETS lib_a
