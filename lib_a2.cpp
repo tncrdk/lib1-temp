@@ -7,7 +7,7 @@ namespace lib_a {
     int add_numbers(int a, int b) {
         return a + b;
     }
-    int add_2(int a) {
-        return a + 2;
-    }
+    // int add_2(int a) {
+    //     return a + 2;
+    // }
 } // namespace lib_a
