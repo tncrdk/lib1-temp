@@ -17,7 +17,7 @@
         packages.default = pkgs.stdenv.mkDerivation rec {
           name = "lib1";
           src = self;
-          version = "git";
+          version = "local_project";
           buildInputs = with pkgs; [ cmake gcc ];
           configurePhase = "echo $PWD && ls && echo ${src} && ls ${src} && cmake -S $src -B build -DCMAKE_INSTALL_PREFIX=$out";
           buildPhase = "cmake --build build";
