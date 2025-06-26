@@ -10,4 +10,7 @@ namespace lib_a {
     int add_2(int a) {
         return a + 2;
     }
+    int add_3(int a) {
+        return a + 3;
+    }
 } // namespace lib_a
